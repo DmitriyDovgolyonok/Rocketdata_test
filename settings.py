@@ -32,7 +32,7 @@ class Parser:
                 "latlon": [float(latlon[0]),
                            float(latlon[1])],
                 "name": "Мономах",
-                "phones": f"{phone}"
+                "phones": [phone]
             })
         return data
 
